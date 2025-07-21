@@ -9,7 +9,6 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
   }
 
   /* Cabeçalho fixo */
@@ -38,9 +37,7 @@ body{
     color: white;
     height: 100%;
     padding-top: 20px;
-  
   }
-
 
   nav a {
     display: block;
@@ -94,9 +91,3 @@ body{
     }
   }
  
-   .profile img {
-    width: 120px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-
-  }
