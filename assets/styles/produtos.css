@@ -9,7 +9,6 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
   }
 
   /* Cabeçalho fixo */
@@ -28,26 +27,25 @@ body{
     font-size: 24px;
   }
 
-  /* Navegação lateral */
+  /* Navegação lado a lado */
   nav {
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #003366;
     color: white;
-    height: 100%;
-    padding-top: 20px;
-  
+    height: 3rem;
+    margin: 0;
+    gap: 17rem;
   }
 
-
   nav a {
-    display: block;
     color: white;
-    padding: 10px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    margin: 5px 0;
+    margin: 0;
+    border-radius: 4px;
+    transition: background 0.2s;
   }
 
   nav a:hover {
@@ -56,25 +54,17 @@ body{
 
   /* Conteúdo principal */
   main {
-    margin-left: 220px;
-    padding: 20px;
+    margin-left: 190px; /*adiciona margem de 220 pixels a esquerda*/
+    padding: 20px; /*distancia de um topico do outro*/
     margin-top: 60px;
+    
   }
 
-  main h2 {
+   main p {
     color: #003366;
+    font-family: Arial, sans-serif;
   }
 
-  /* Rodapé */
-  footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
 
   /* Responsividade */
   @media (max-width: 768px) {
@@ -94,9 +84,3 @@ body{
     }
   }
  
-   .profile img {
-    width: 120px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-
-  }
