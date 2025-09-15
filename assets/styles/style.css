@@ -11,6 +11,11 @@ body{
     color: #333;
   }
 
+h1 {
+  font-size: 120%;
+  color: #003366;
+}
+
   /* Cabeçalho fixo */
   header {
     position: fixed;
@@ -27,7 +32,7 @@ body{
     font-size: 24px;
   }
 
-  /* Navegação lado a lado */
+
   nav {
     display: flex;
     justify-content: center;

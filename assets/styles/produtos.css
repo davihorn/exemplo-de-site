@@ -6,7 +6,7 @@ body{
 
   /* Corpo da página */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
   }
@@ -64,6 +64,32 @@ body{
     color: #003366;
     font-family: Arial, sans-serif;
   }
+
+  .profile {
+    text-align: center; 
+}
+.profile h1 {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+.profile img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+  color: #003366;
+}
+
+
+
+
 
 
   /* Responsividade */
